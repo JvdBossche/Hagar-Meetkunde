@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetkundeGUI", "MeetkundeGU
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetkundeLogic", "Meetkunde\MeetkundeLogic.csproj", "{B940D5BF-153A-4C07-BF11-724D1B6FFEDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetkundeCL", "MeetkundeCL\MeetkundeCL.csproj", "{F0771B4A-B9AA-437E-9191-E30CBE80FE2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B940D5BF-153A-4C07-BF11-724D1B6FFEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B940D5BF-153A-4C07-BF11-724D1B6FFEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B940D5BF-153A-4C07-BF11-724D1B6FFEDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0771B4A-B9AA-437E-9191-E30CBE80FE2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0771B4A-B9AA-437E-9191-E30CBE80FE2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0771B4A-B9AA-437E-9191-E30CBE80FE2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0771B4A-B9AA-437E-9191-E30CBE80FE2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
