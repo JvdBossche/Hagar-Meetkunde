@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MeetkundeLogic.Figuur">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAABAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Figuur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeetkundeLogic.Rechthoek">
+    <Position X="1.25" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAABAAABAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Rechthoek.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeetkundeLogic.Parallellogram">
+    <Position X="4" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgQAAAAAAAIBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parallellogram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

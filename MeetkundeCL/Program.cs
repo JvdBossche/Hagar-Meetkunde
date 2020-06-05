@@ -26,6 +26,14 @@ namespace MeetkundeCL
             Console.WriteLine($"rh1AsFigExpl.GetType(): {rh1AsFigExpl.GetType()}");
             Conclusion: The casting itself works (causes no errors) but the object retains its child-class identity.
             */
+
+            Parallellogram pl1 = new Parallellogram("Parallellogram1", 2, 3);
+            Console.WriteLine($"pl1.Naam: {pl1.Naam}");
+            Console.WriteLine($"pl1.Lengte: {pl1.Basis}");
+            Console.WriteLine($"pl1.Breedte: {pl1.Hoogte}");
+            Console.WriteLine($"pl1.Omtrek: {pl1.Omtrek}");
+            Console.WriteLine($"pl1.Oppervlakte: {pl1.Oppervlakte}");
+            Console.WriteLine($"pl1.ToString(): {pl1.ToString()}");
             Console.ReadKey();
         }
     }
