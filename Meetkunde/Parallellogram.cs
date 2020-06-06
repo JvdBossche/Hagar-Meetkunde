@@ -9,7 +9,6 @@ namespace MeetkundeLogic
     {
         //properties
         public double Basis { get; set; }
-
         public double Hoogte { get; set; }
 
         public override double Omtrek { get => 2 * (Basis + Hoogte); }

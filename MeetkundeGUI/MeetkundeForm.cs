@@ -34,10 +34,11 @@ namespace MeetkundeGUI
                 l = 1;
             }
 
-            //double.TryParse(breedteVeld.Text, out b)
+            //if (double.TryParse(breedteVeld.Text, out b)) { } else { b = 1; }
             b = (double.TryParse(breedteVeld.Text, out b)) ? b : 1;
             
-            figurenLijst.Items.Add(new Rechthoek(naamVeld.Text, l, b).ToString());
+            //figurenLijst.Items.Add(new Rechthoek(naamVeld.Text, l, b).ToString());
+            figurenLijst.Items.Add(new Rechthoek(naamVeld.Text, l, b));
         }
 
         private void toevoegenCirkel_Click(object sender, EventArgs e)

@@ -13,6 +13,7 @@ namespace MeetkundeLogic
         public double Lengte { get; set; }
         public double Breedte { get; set; }
         public override double Omtrek { get => 2 * (Lengte + Breedte); }
+        
         public override double Oppervlakte { get => Lengte * Breedte; }
 
         //constructors
